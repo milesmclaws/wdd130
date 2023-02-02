@@ -51,12 +51,14 @@ nav a:hover {
 }
 #background {
     background-color: #373f51;
+    margin-bottom: 100px;
 }
 .msg {
     background-color: #373f51;
     color: white;
     line-height: 1.5em;
     padding: 35px;
+    margin-top: 200px;
 }
 footer {
     background-color: #373f51;
