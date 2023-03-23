@@ -2,7 +2,7 @@
 
 #content{
     max-width: 1600px;
-    margin: 0;
+    margin: 0 auto;
 }
 .logo{
     max-width: 100px
@@ -60,14 +60,7 @@ header{
 .msg p{
     font-family:"Nunito Sans", Helvetica, sans-serif;
 }
-.msg a{
-    color: black;
-    font-size: 25px;
-}
-.msg a:hover{
-    background-color: #C0D6DF;
-    color: black;
-}
+
 footer{
     background-color: #4F6D7A;
     color:#E8DAB2;
@@ -91,3 +84,23 @@ footer a:hover{
 body{
     background-color: #C0D6DF;
 }
+.msg a {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #C0D6DF;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .msg a:hover {background-color: #C0D6DF}
+  
+  .msg a:active {
+    background-color: #C0D6DF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
