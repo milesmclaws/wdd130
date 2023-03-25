@@ -104,3 +104,40 @@ body{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+
+  .aboutme-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mountains-img{
+    width: 75%;
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+  .aboutme-title{
+    text-align: center;
+    font-family: "Pompiere", Helvetica, sans-serif;
+    background-color: #E8DAB2;
+    font-size: 100px;
+  }
+  .textbox1{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+  }
+  .mission-img{
+   grid-column:1/2;
+   grid-row: 3/4;
+   width: 75%;
+  }
+  .textbox2{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
+    font-size: 25px;
+  }
